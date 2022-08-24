@@ -1,13 +1,9 @@
 import 'package:ecommerce/screens/screens.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-
-import '../screens/cart/cart_screen.dart';
-import '../screens/home/home_screen.dart';
 
 class AppRouter {
   static Route onGenerateRoute(RouteSettings settings) {
-    print('This is route: ${settings.name}');
+    debugPrint('This is route: ${settings.name}');
 
     switch (settings.name) {
       case '/':
